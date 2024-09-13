@@ -1,0 +1,75 @@
+
+html, body {
+    height: 100%;
+    justify-content: center;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+
+.login-form-container {
+    width: 360px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1877f2;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #f5f6f7;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #1877f2;
+    background-color: white;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #165ecc;
+}
+
+@media (max-width: 480px) {
+    .login-form-container {
+        width: 100%;
+        padding: 20px;
+        margin: 50px auto;
+    }
+}
